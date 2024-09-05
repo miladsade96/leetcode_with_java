@@ -69,3 +69,14 @@ build/
 /.idea/*
 /.idea/**
 /.idea/**/*
+/.idea/*
+/.idea/**
+/.idea/**/*
+/.idea/.gitignore
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/jarRepositories.xml
+/.idea/leetcode_with_java.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
