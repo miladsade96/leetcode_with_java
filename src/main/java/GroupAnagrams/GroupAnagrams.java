@@ -9,7 +9,7 @@ public class GroupAnagrams {
             char[] chars = word.toCharArray();
             Arrays.sort(chars);
             String sortedChars = String.valueOf(chars);
-            storage.computeIfAbsent(sortedChars, _ -> new ArrayList<>()).add(word);
+            storage.computeIfAbsent(sortedChars, unused -> new ArrayList<>()).add(word);
         }
         return new ArrayList<>(storage.values());
     }
