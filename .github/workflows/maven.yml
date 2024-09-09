@@ -27,8 +27,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Build and test with maven
-      run: mvn --batch-mode --update-snapshots verify
+    - name: Build and Test with Maven
+      run: mvn clean test
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
