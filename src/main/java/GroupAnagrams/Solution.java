@@ -2,8 +2,7 @@ package GroupAnagrams;
 
 import java.util.*;
 
-public class GroupAnagrams {
-    public static List<List<String>> solution(List<String> strs) {
+public class Solution {
     /**
      * Solution for 49.GroupAnagrams LeetCode Challenge
      *
@@ -14,6 +13,7 @@ public class GroupAnagrams {
      * @param strs List of strings to check and group the anagrams
      * @return List of list of string that considered as grouped anagrams
      */
+    public static List<List<String>> groupAnagrams(List<String> strs) {
         Map<String, List<String>> storage = new HashMap<>();
         for (var word : strs) {
             char[] chars = word.toCharArray();
