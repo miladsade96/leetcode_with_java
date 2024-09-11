@@ -12,4 +12,11 @@ public class Solution {
         }
         return count;
     }
+
+    public static int missingNumberV2(int[] nums) {
+        var actualSum = Arrays.stream(nums).sum();
+        var n = nums.length;
+        var expectedSum = (n * (n + 1)) / 2;
+        return expectedSum - actualSum;
+    }
 }
