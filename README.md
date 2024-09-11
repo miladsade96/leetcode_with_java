@@ -1,4 +1,4 @@
-# LeetCode with Java
+![Logo](assets/LeetcodeWithJava.png)
 
 Solving Leetcode Challenges using Java Programming Language.
 
