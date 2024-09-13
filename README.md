@@ -25,3 +25,4 @@ Problems that have been solved so far:
 2. [First Letter To Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/)
 3. [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
 4. [Missing Number](https://leetcode.com/problems/missing-number/description/)
+5. [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
