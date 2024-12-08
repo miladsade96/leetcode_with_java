@@ -20,6 +20,20 @@ public class BigO {
 
      So if the memory space is your main priority, maybe code 2 is better.
 
-     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+     -------------------------------------------------------------------------------------------------------------------
+
+     Time and Space Complexity Notations:
+
+        Omega: Best case
+
+        Theta: Average case
+
+        Omicron: Worst case
+
+     Let's assume we have an array as follows:          int[] numbers = {1, 2, 3, 4, 5, 6, 7};
+
+                                                      Omega = 1     Theta = 4       Omicron = 7
+
+    --------------------------------------------------------------------------------------------------------------------
      */
 }
