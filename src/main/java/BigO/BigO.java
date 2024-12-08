@@ -1,0 +1,25 @@
+package BigO;
+
+public class BigO {
+    /*
+    What is BigO?
+    It is a way comparing two sets of codes. Let's assume code one and code two accomplish exactly the same thing.
+    How would you compare one against the other?
+
+    Code one might be more readable, Code two might be more concise.
+
+    BigO is a way of comparing code one and code two mathematically about how efficient they run.
+
+    Time Complexity:        It is not about seconds, It is about the number of operations
+        Code 1 ---> 15 seconds
+        Code 2 ---> 60 seconds
+
+    Space Complexity:
+        Code 1 ---> 100 MB
+        Code 2 ---> 20 MB
+
+     So if the memory space is your main priority, maybe code 2 is better.
+
+     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+     */
+}
