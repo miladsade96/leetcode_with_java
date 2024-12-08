@@ -1,6 +1,9 @@
 package BigO;
 
 public class BigO {
+    private BigO() throws IllegalAccessException {
+        throw new IllegalAccessException("You cab not instantiate this class!");
+    }
     /*
     What is BigO?
     It is a way comparing two sets of codes. Let's assume code one and code two accomplish exactly the same thing.
@@ -36,4 +39,15 @@ public class BigO {
 
     --------------------------------------------------------------------------------------------------------------------
      */
+
+    /// BigO(n)
+    public static void printNumbers(int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.println(i);
+        }
+    }
+
+    public static void main(String[] args) {
+        printNumbers(10);
+    }
 }
