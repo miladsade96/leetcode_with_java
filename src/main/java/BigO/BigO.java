@@ -47,7 +47,19 @@ public class BigO {
         }
     }
 
+    /// BigO(n + n) --> BigO(2n) --> BigO(n)
+    /// Drop the Constants
+    public static void printNumbersTwice(int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.println(i);
+        }
+
+        for (int j = 0; j < n; j++) {
+            System.out.println(j);
+        }
+    }
+
     public static void main(String[] args) {
-        printNumbers(10);
+        printNumbersTwice(10);
     }
 }
