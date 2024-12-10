@@ -88,6 +88,13 @@ public class BigO {
 //        return n + n + n; O(2)    ---> O(1)
     }
 
+    /// BigO(log n)
+    /// log 8 = 3
+    /// log 1_073_741_824 = 31
+    public static void search(int[] nums) {
+        //
+    }
+
     public static void main(String[] args) {
         printNestedLoops(10);
     }
