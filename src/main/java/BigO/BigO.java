@@ -82,6 +82,12 @@ public class BigO {
         }
     }
 
+    ///  BigO(1)
+    public static int plus(int n) {
+        return n + n;
+//        return n + n + n; O(2)    ---> O(1)
+    }
+
     public static void main(String[] args) {
         printNestedLoops(10);
     }
