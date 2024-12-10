@@ -95,6 +95,18 @@ public class BigO {
         //
     }
 
+    /// Different terms of inputs
+    /// BigO(n + m)
+    public static void printDifferentInputs(int n, int m) {
+        for (int i = 0; i < n; i++) {
+            System.out.println(i);
+        }
+
+        for (int j = 0; j < m; j++) {
+            System.out.println(j);
+        }
+    }
+
     public static void main(String[] args) {
         printNestedLoops(10);
     }
