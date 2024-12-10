@@ -107,6 +107,13 @@ public class BigO {
         }
     }
 
+    /// ArrayLists
+    /// add to the end ---> no reindexing ---> O(1)
+    /// remove from end --- > no reindexing ---> O(1)
+    /// add to the beginning or remove from beginning ---> reindexing ---> O(n)
+    /// Find by value ---> O(n)
+    /// Find by index ---> O(1)
+
     public static void main(String[] args) {
         printNestedLoops(10);
     }
