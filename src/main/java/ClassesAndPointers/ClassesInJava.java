@@ -1,6 +1,6 @@
 package ClassesAndPointers;
 
-public class ClassesAndPointers {
+public class ClassesInJava {
     public static void main(String[] args) {
         Cookie cookieOne = new Cookie("green");
         Cookie cookieTwo = new Cookie("blue");
