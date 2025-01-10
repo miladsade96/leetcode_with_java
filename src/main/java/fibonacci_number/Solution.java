@@ -1,5 +1,9 @@
-package FibonacciNumber;
+package fibonacci_number;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Solution {
     /**
      * Solution for 509.Fibonacci Number
