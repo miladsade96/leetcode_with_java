@@ -1,7 +1,8 @@
-package ClassesAndPointers;
+package classes_and_pointers;
 
 import java.util.HashMap;
 
+@SuppressWarnings("all")
 public class PointersInJava {
     /// In Java, the concept of pointers, as found in languages like C or C++, does not exist in the same way. However,
     /// Java does use references, which can be thought of as a type of pointer. Here’s a breakdown of how this works:

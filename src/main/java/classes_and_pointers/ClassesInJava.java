@@ -1,5 +1,8 @@
-package ClassesAndPointers;
+package classes_and_pointers;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class ClassesInJava {
     public static void main(String[] args) {
         Cookie cookieOne = new Cookie("green");
@@ -8,7 +11,7 @@ public class ClassesInJava {
         cookieOne.setColor("Red");
         cookieTwo.setColor("yellow");
 
-        System.out.println(cookieOne.getColor());
-        System.out.println(cookieTwo.getColor());
+        log.info("Cookie one color: {}", cookieOne.getColor());
+        log.info("Cookie two color: {}", cookieTwo.getColor());
     }
 }
