@@ -1,13 +1,17 @@
-package GroupAnagrams;
+package group_anagrams;
+
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 
 import java.util.*;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Solution {
     /**
      * Solution for 49.GroupAnagrams LeetCode Challenge
      * Big O:
-     *  Time complexity: O(n * m * log(m))
-     *  Space complexity: O(n * m)
+     * Time complexity: O(n * m * log(m))
+     * Space complexity: O(n * m)
      *
      * @param strs List of strings to check and group the anagrams
      * @return List of list of strings that considered as grouped anagrams
