@@ -1,8 +1,12 @@
-package FirstLetterToAppearTwice;
+package first_letter_to_appear_twice;
+
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Solution {
     /**
      * Solution for 2351.First Letter to Appear Twice Challenge
