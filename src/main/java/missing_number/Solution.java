@@ -1,7 +1,11 @@
-package MissingNumber;
+package missing_number;
+
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 
 import java.util.Arrays;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Solution {
     public static int missingNumberV1(int[] nums) {
         int count = 0;
