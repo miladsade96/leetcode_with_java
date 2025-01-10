@@ -1,5 +1,9 @@
-package PalindromeNumber;
+package palindrome_number;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Solution {
     public static boolean isPalindrome(int x) {
         if (x < 0 || (x % 10 == 0 && x != 0)) return false;
@@ -13,13 +17,5 @@ public class Solution {
         }
 
         return originalNumber == reversedNumber;
-    }
-
-
-    public static void main(String[] args) {
-        System.out.println(isPalindrome(-121));
-        System.out.println(isPalindrome(121));
-        System.out.println(isPalindrome(1221));
-        System.out.println(isPalindrome(1234321));
     }
 }
