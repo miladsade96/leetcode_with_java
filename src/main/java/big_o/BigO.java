@@ -1,5 +1,6 @@
-package BigO;
+package big_o;
 
+@SuppressWarnings("all")
 public class BigO {
     private BigO() throws IllegalAccessException {
         throw new IllegalAccessException("You cab not instantiate this class!");
