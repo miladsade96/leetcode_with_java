@@ -14,18 +14,17 @@ public class Solution {
      *
      * @param nums array of integers
      * @param val  integer
-     * @return array which contains the length of the new array(except val) and the new array
+     * @return int k
      */
-    public static Object[] removeElement(int[] nums, int val) {
+    public static int removeElement(int[] nums, int val) {
         int k = 0;
+
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != val) {
-                nums[k++] = nums[i];
+                nums[k] = nums[i];
+                k++;
             }
         }
-        Object[] result = new Object[2];
-        result[0] = k;
-        result[1] = nums;
-        return result;
+        return k;
     }
 }
