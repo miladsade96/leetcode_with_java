@@ -1,9 +1,13 @@
-package ValidAnagram;
+package valid_anagrams;
+
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Solution {
     /**
      * Solution for 242.Valid Anagram - Approach #1

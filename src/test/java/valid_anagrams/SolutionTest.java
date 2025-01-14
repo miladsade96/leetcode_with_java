@@ -1,10 +1,10 @@
-package ValidAnagram;
+package valid_anagrams;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-public class SolutionTest {
+class SolutionTest {
     @ParameterizedTest
     @CsvSource({
             "anagram, nagaram, true",
