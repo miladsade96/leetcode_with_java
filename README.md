@@ -30,3 +30,4 @@ Problems that have been solved so far:
 7. [Remove Element](https://leetcode.com/problems/remove-element/description/)
 8. [Two Sum](https://leetcode.com/problems/two-sum/description/)
 9. [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
+10. [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
