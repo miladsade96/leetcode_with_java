@@ -28,5 +28,5 @@ Problems that have been solved so far:
 5. [Missing Number](https://leetcode.com/problems/missing-number/description/)
 6. [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 7. [Remove Element](https://leetcode.com/problems/remove-element/description/)
-8. [TwoSum](https://leetcode.com/problems/two-sum/description/)
+8. [Two Sum](https://leetcode.com/problems/two-sum/description/)
 9. [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)

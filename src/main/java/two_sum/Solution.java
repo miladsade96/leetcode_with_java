@@ -1,8 +1,12 @@
-package TwoSum;
+package two_sum;
+
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Solution {
     /**
      * Solution for 1.TwoSum challenge
